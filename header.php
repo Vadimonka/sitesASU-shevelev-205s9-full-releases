@@ -87,7 +87,6 @@ $username = $is_logged_in ? ($_SESSION['username'] ?? 'Геймер') : '';
         color: var(--accent);
     }
 
-    /* ==================== Профиль и выпадашка ==================== */
     .profile-container {
         position: relative;
     }
