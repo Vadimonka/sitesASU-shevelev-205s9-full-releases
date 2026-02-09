@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 100px 1rem 40px; /* запас сверху + снизу */
+            padding: 100px 1rem 40px; 
         }
 
         .auth-wrapper {
@@ -133,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         .buttons {
             display: flex;
             flex-direction: column;
-            gap: 1.4rem;               /* ← расстояние между кнопками */
+            gap: 1.4rem;               
             margin-top: 2.2rem;
         }
 
