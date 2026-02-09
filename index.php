@@ -57,7 +57,6 @@ if (!$result) {
             border-bottom: 1px solid var(--border); z-index: 1000;
         }
 
-        /* ── HEADER стили (оставил как было) ── */
         .logo { display: flex; align-items: center; gap: 14px; text-decoration: none; }
         .logo-text {
             font-family: 'Orbitron', sans-serif; font-size: 1.8rem; font-weight: 700;
@@ -89,7 +88,6 @@ if (!$result) {
         .dropdown-item { display: block; padding: 1rem; color: var(--text-muted); text-decoration: none; }
         .dropdown-item:hover { background: rgba(0,224,255,0.1); color: var(--accent); }
 
-        /* ── HERO / ВВОДНЫЙ БЛОК ── */
         .hero {
             position: relative;
             padding: 4rem 5% 6rem;
@@ -152,11 +150,10 @@ if (!$result) {
                 gap: 3rem;
             }
             .hero-video {
-                order: -1; /* видео сверху на мобильных */
+                order: -1; 
             }
         }
 
-        /* ── КАТАЛОГ (остальной код без изменений) ── */
         .container { padding: 3rem 5%; max-width: 1700px; margin: 0 auto; }
         .catalog-title { 
             font-family: 'Orbitron', sans-serif; 
@@ -271,7 +268,6 @@ if (!$result) {
     <?php include 'header.php'; ?>
 </header>
 
-<!-- Hero блок с описанием и видео справа -->
 <div class="hero">
     <div class="hero-grid">
         <div class="hero-text">
