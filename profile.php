@@ -81,7 +81,6 @@ $has_avatar = !empty($user_data['avatar']) && file_exists($user_data['avatar']);
             text-align: center;
         }
 
-        /* Аватар с кнопкой быстрой загрузки */
         .avatar-section {
             position: relative;
             width: 140px;
@@ -116,7 +115,6 @@ $has_avatar = !empty($user_data['avatar']) && file_exists($user_data['avatar']);
             color: var(--accent);
         }
 
-        /* Кнопка "Плюс" поверх аватара */
         .upload-badge {
             position: absolute;
             bottom: 5px;
@@ -157,7 +155,6 @@ $has_avatar = !empty($user_data['avatar']) && file_exists($user_data['avatar']);
             opacity: 0.8;
         }
 
-        /* Блок BIO */
         .bio-display {
             background: rgba(0,0,0,0.2);
             border: 1px solid var(--border);
@@ -182,7 +179,6 @@ $has_avatar = !empty($user_data['avatar']) && file_exists($user_data['avatar']);
             color: #d1d5db;
         }
 
-        /* Поля ввода */
         .input-group {
             text-align: left;
             margin-bottom: 20px;
