@@ -283,7 +283,6 @@ if (!$result) {
         </div>
 
         <div class="hero-video">
-            <!-- Короткое атмосферное cyberpunk/gaming видео с Pixabay (замени если хочешь другое) -->
             <video autoplay loop muted playsinline>
                 <source src="https://cdn.pixabay.com/video/2025/05/13/278748_large.mp4" type="video/mp4">
                 Ваш браузер не поддерживает видео.
