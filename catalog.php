@@ -103,7 +103,6 @@ $result = $stmt->get_result();
         .btn-reg { background: var(--accent); color: #0a0d18; box-shadow: 0 0 20px rgba(0,224,255,0.35); }
         .btn-reg:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(0,224,255,0.5); }
 
-        /* Профиль (как на главной) */
         .profile-container { position: relative; }
         .profile-btn { display: flex; align-items: center; gap: 12px; background: none; border: none; cursor: pointer; padding: 0.6rem; border-radius: 14px; transition: all 0.3s; }
         .profile-btn:hover { background: rgba(0,224,255,0.08); }
@@ -295,7 +294,6 @@ $result = $stmt->get_result();
 <div class="container">
     <h2 class="catalog-title">КАТАЛОГ ТОВАРОВ</h2>
 
-    <!-- Фильтр по категориям -->
     <div class="category-filter">
         <?php foreach ($categories as $cat_key => $cat_name): ?>
             <a href="?category=<?= $cat_key ?>"
