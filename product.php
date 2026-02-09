@@ -118,12 +118,10 @@ header {
 .image-container img {
     width: 100%;
     height: 100%;
-    object-fit: contain;           /* ← было cover, теперь contain — лучше для большинства товаров */
-    image-rendering: crisp-edges;   /* улучшает чёткость на многих экранах */
-    background: #000;               /* запасной фон, если картинка прозрачная */
+    object-fit: contain;           
+    image-rendering: crisp-edges;   
+    background: #000;               
 }
-
-/* ──────────────────────────────────────────────── */
 
 .info-column {
     height: 100%;
@@ -153,7 +151,6 @@ header {
     mask-image: linear-gradient(to bottom, black 92%, transparent);
 }
 
-/* ── ЦЕНА И КНОПКА ── теперь компактнее и в одну строку ─────────────────────── */
 .purchase-section {
     margin-top: 28px;
     padding: 20px 30px;
@@ -180,7 +177,7 @@ header {
 
 .price-amount {
     font-family: Orbitron;
-    font-size: 2.1rem;              /* ← было 2.9 → уменьшили */
+    font-size: 2.1rem;              
     font-weight: 900;
     color: #fff;
     line-height: 1;
@@ -219,7 +216,6 @@ header {
     box-shadow: 0 8px 24px rgba(0,240,255,.45);
 }
 
-/* Уведомление */
 .success-notification {
     position: fixed;
     right: 40px;
